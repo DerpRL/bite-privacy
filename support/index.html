@@ -1,0 +1,151 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Bite Support</title>
+<meta name="description" content="Help with Bite: Food Tracker: contact, moving to a new iPhone, subscriptions, Apple Health, backups and more.">
+<style>
+  :root {
+    --bg: #ffffff;
+    --text: #1d1d1f;
+    --muted: #5f6368;
+    --accent: #00ad65;
+    --line: #e3e5e8;
+    --card: #f4f8f5;
+    --todo-bg: #fff3c4;
+    --todo-text: #6b4e00;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --bg: #111312;
+      --text: #ececec;
+      --muted: #a3a8a5;
+      --accent: #3ccf8e;
+      --line: #2a2e2c;
+      --card: #1a1f1c;
+      --todo-bg: #4a3a00;
+      --todo-text: #ffe28a;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--text);
+    font: 17px/1.6 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    -webkit-text-size-adjust: 100%;
+  }
+  main { max-width: 720px; margin: 0 auto; padding: 48px 16px 80px; }
+  header { border-bottom: 1px solid var(--line); padding-bottom: 24px; margin-bottom: 8px; }
+  .app { color: var(--accent); font-weight: 600; letter-spacing: .02em; margin: 0 0 4px; }
+  h1 { font-size: 34px; line-height: 1.15; margin: 0 0 8px; }
+  h2 { font-size: 21px; margin: 40px 0 8px; }
+  p, ul { margin: 0 0 14px; }
+  ul { padding-left: 22px; }
+  li { margin-bottom: 6px; }
+  .updated { color: var(--muted); margin: 0; }
+  .summary { background: var(--card); border-radius: 14px; padding: 18px 20px; margin: 28px 0 0; }
+  .summary p:last-child, .summary ul:last-child { margin-bottom: 0; }
+  a { color: var(--accent); }
+  .todo { background: var(--todo-bg); color: var(--todo-text); border-radius: 4px; padding: 0 4px; font-weight: 600; }
+  details { border-bottom: 1px solid var(--line); padding: 12px 0; }
+  summary { cursor: pointer; font-weight: 600; }
+  details > :not(summary) { margin-top: 10px; }
+  footer { color: var(--muted); font-size: 15px; border-top: 1px solid var(--line); margin-top: 48px; padding-top: 16px; }
+</style>
+</head>
+<body>
+<main>
+  <header>
+    <p class="app">Bite: Food Tracker</p>
+    <h1>Support</h1>
+    <p class="updated">Questions, problems or ideas? I'm happy to help.</p>
+  </header>
+
+  <section class="summary" aria-label="Contact">
+    <p><strong>Contact:</strong> write to <a href="mailto:yarne.savaete@outlook.com?subject=Bite%20support">yarne.savaete@outlook.com</a>. I usually answer within a few days.</p>
+    <p>It helps to mention your iPhone model, its iOS version and what you were doing when the problem happened. A screenshot is welcome too. Please don't send your diary or other health data unless I ask for something specific.</p>
+  </section>
+
+  <h2>Frequently asked questions</h2>
+
+  <details>
+    <summary>Do I need an account?</summary>
+    <p>No. Bite has no account and no servers of its own. Your data stays on your devices, in Apple Health if you allow it, and in your own iCloud if you turn on sync. See the <a href="https://derprl.github.io/bite-privacy/">privacy policy</a>.</p>
+  </details>
+
+  <details>
+    <summary>How do I keep my data when I get a new iPhone?</summary>
+    <p>Any of these works:</p>
+    <ul>
+      <li><strong>iCloud sync:</strong> turn it on in Me → iCloud sync on both devices, signed in to the same Apple Account. Your diary downloads on the new iPhone.</li>
+      <li><strong>A backup file:</strong> Me → Backup and restore → Save or share backup, then on the new iPhone, Me → Backup and restore → Restore from file….</li>
+      <li><strong>Your iPhone's own backup:</strong> moving with an iCloud or computer backup of the whole iPhone brings Bite's data along.</li>
+    </ul>
+  </details>
+
+  <details>
+    <summary>My diary looks empty or something is missing</summary>
+    <p>With iCloud sync on, a new or restored device can take a few minutes to download everything; keep Bite open on Wi-Fi. Bite also keeps automatic weekly backups on the device: Me → Backup and restore lists them, and you can restore one from there.</p>
+  </details>
+
+  <details>
+    <summary>How do I restore Bite Premium on a new device?</summary>
+    <p>Open Me → Bite Premium and tap <strong>Restore purchases</strong>, signed in with the Apple Account you bought it with. Premium also works on your other devices with that Apple Account.</p>
+  </details>
+
+  <details>
+    <summary>How do I cancel or change my subscription?</summary>
+    <p>Subscriptions are handled by Apple. Open Me → Bite Premium → Manage subscription, or Settings → Apple Account → Subscriptions on your iPhone. Turn it off at least 24 hours before the period ends to avoid the next payment; Premium stays on until then.</p>
+  </details>
+
+  <details>
+    <summary>Can I get a refund?</summary>
+    <p>Refunds go through Apple, not me: request one at <a href="https://reportaproblem.apple.com">reportaproblem.apple.com</a>.</p>
+  </details>
+
+  <details>
+    <summary>I have an offer code</summary>
+    <p>Tap <strong>Have a code?</strong> on the Bite Premium screen, or redeem it in the App Store under your account picture.</p>
+  </details>
+
+  <details>
+    <summary>Bite doesn't read or save Apple Health data</summary>
+    <p>Check which data Bite may read and write in Settings → Privacy &amp; Security → Health → Bite, and turn on the types you want. Me → Apple Health in Bite shows what it uses.</p>
+  </details>
+
+  <details>
+    <summary>A barcode isn't found or a product's nutrition is wrong</summary>
+    <p>Bite looks products up in <a href="https://world.openfoodfacts.org">Open Food Facts</a>, a free database filled in by volunteers, and in the US Department of Agriculture's database. If a product is missing or wrong there, you can add or fix it on Open Food Facts, and in the meantime add it as one of your own foods (Me → My foods).</p>
+  </details>
+
+  <details>
+    <summary>Can I bring my history from another app?</summary>
+    <p>Yes. Me → Import from another app reads your history from Apple Health, MyFitnessPal (the export it emails you) and Cronometer.</p>
+  </details>
+
+  <details>
+    <summary>How do I export my data?</summary>
+    <p>Me → Export report makes a PDF to print or share, for example with a dietitian, or CSV files for a spreadsheet. Me → Backup and restore saves a complete backup file.</p>
+  </details>
+
+  <details>
+    <summary>Which devices does Bite run on?</summary>
+    <p>iPhone and iPad with iOS 18 or later, and Apple Watch with watchOS 26 or later. Some features, like describing a meal in your own words, use Apple Intelligence and need a device that supports it.</p>
+  </details>
+
+  <details>
+    <summary>How do I delete my data?</summary>
+    <p>Deleting Bite deletes its data on that device. With iCloud sync on, also remove Bite's data in Settings → Apple Account → iCloud. What Bite saved to Apple Health can be deleted in the Health app.</p>
+  </details>
+
+  <h2>Medical note</h2>
+  <p>Bite gives estimates and general information about food and nutrition, not medical advice. Talk to your doctor or a dietitian about your own health, especially during pregnancy, with diabetes or with medication.</p>
+
+  <footer>
+    <p>Bite: Food Tracker · <a href="mailto:yarne.savaete@outlook.com">yarne.savaete@outlook.com</a> · <a href="https://derprl.github.io/bite-privacy/">Privacy Policy</a></p>
+  </footer>
+</main>
+</body>
+</html>
